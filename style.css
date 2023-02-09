@@ -1,0 +1,910 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header */
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.logo {
+    padding-left: 1rem;
+}
+
+.menu ul a {
+    padding-right: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.icons i {
+    padding-right: 1rem;
+}
+
+.fa i {
+    line-height: 4.5rem;
+    padding-right: 1rem;
+    display: none;
+    font-size: 1.5rem;
+} */
+
+body {
+    background: rgb(251, 251, 251);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: rgb(254, 254, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: azure;
+}
+
+.humburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+
+}
+
+.nav-bar ul li a.active {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+/* banner-section */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    padding-left: 5rem;
+    line-height: 4rem;
+    padding-top: 5rem;
+}
+
+.left h1 {
+    font-size: 5rem;
+    line-height: 7rem;
+}
+
+.button {
+    padding: 8px 17px;
+    border: 1px solid black;
+    border-radius: 17px;
+    background: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.left h3 {
+    line-height: 7rem;
+    word-spacing: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.left h5 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.img {
+    line-height: 10rem;
+}
+
+.forbes {
+    padding-left: 10rem;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* section-disc */
+
+.disc {
+    display: flex;
+    margin-top: 35px;
+}
+
+.left-one {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    line-height: 3rem;
+}
+
+.left-two {
+    font-size: 1.7rem;
+    padding-left: 4rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.left-two h3 {
+    line-height: 5rem;
+}
+
+/* third-section */
+
+.one-img {
+    text-align: center;
+}
+
+.one-img img {
+    width: 90%;
+}
+
+.icons-one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(197, 194, 194);
+    margin-top: -89px;
+    padding-left: 100px;
+    padding-top: 135px;
+}
+
+.icons-one h2 {
+    padding-right: 100px;
+}
+
+/* forth-section */
+
+.column {
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+.best {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-one {
+    font-size: 3.5rem;
+    width: 50%;
+}
+
+.shop {
+    padding-left: 9rem;
+    font-size: 2rem;
+}
+
+/* Gallery-section */
+
+.gallery{
+    display: flex;
+ justify-content: center;
+}
+.gallery img{
+    height: 450px;
+   width: auto;
+    padding-right: 20px;
+}
+.gallery p{
+    line-height: 2rem;
+}
+.one{
+    font-size: 0.8rem;
+    word-spacing: 100px;
+}
+.two{
+    font-size: 0.8rem;
+    word-spacing: 100px;
+}
+.three{
+    font-size: 0.8rem;
+    word-spacing: 100px;
+}
+.four{
+    font-size: 0.8rem;
+    word-spacing: 100px;
+}
+
+/* six-section */
+
+.reviews{
+   margin-top: 60px;
+    display: flex;
+    width: 100%;
+}
+.reviews-one{
+    width: 50%;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    line-height: 3rem;
+}
+.reviews-one h2{
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+.reviews-one h5{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.reviews-one p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.reviews-two{
+    width: 50%;
+    font-size: 1.7rem;
+    padding-left: 4rem;
+    line-height: 2rem;
+}
+.reviews-two p{
+    line-height: 2rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.reviews-two h6{
+    font-size: 0.9rem;
+    font-weight: 200;
+    
+}
+.s{
+    color: grey;
+}
+
+/* seven-section */
+
+.frame{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.frame-one{
+    padding-right: 10px;
+    width: auto;
+    height: 700px;
+}
+.frame-two{
+ width: auto;
+    padding-left: 10px;
+    height: 700px;
+}
+
+/* Eight-section-banner-one */
+
+.banner-one{
+    text-align: center;
+    margin-top: 30px;
+}
+.banner-one img{
+width: 97%;
+}
+
+/* row-section */
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.heading-four{
+    font-size: 2.5rem;
+    width: 50%;
+    font-weight: 100;
+}
+.ten img{
+  width: 20rem;
+  margin-top: 33px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(229 229 229);
+    margin-top: 30px;
+}
+.logo-one{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.footer p{
+    word-spacing: 20px;
+    padding-top: 30px;
+}
+.icons-ten{
+    word-spacing: 20px;
+    padding-top: 30px;
+}
+.fa-instagram1{
+    padding-right: 10px;
+}
+
+/* media-querry */
+
+@media screen and (max-width:1245px) {
+    .gallery img{
+        height: 350px;
+       width: auto;
+    }   
+    .one{
+        font-size: 0.8rem;
+        word-spacing: 80px;
+    }
+    .two{
+        font-size: 0.8rem;
+        word-spacing: 80px;
+    }
+    .three{
+        font-size: 0.8rem;
+        word-spacing: 80px;
+    }
+    .four{
+        font-size: 0.8rem;
+        word-spacing: 80px;
+    }
+}
+
+@media  screen and (max-width:995px) {
+    .gallery img{
+        height: 250px;
+    }   
+    .one{
+        font-size: 0.7rem;
+        word-spacing: 50px;
+    }
+    .two{
+        font-size: 0.7rem;
+        word-spacing: 50px;
+    }
+    .three{
+        font-size: 0.7rem;
+        word-spacing: 50px;
+    }
+    .four{
+        font-size: 0.7rem;
+        word-spacing: 50px;
+    }
+
+/* six-section */
+
+.reviews{
+    flex-direction: column;
+    text-align: center;
+}
+.reviews-one{
+    width: 100%;
+    padding-left: 0rem;
+}
+.reviews-two{
+    width: 100%;
+    padding-left: 0rem;
+}
+
+/* row-section */
+.heading-four{
+    font-size: 1.5rem;
+}
+
+.ten img{
+    width: 16rem;
+    margin-top: 3px;
+  }
+}
+
+@media screen and (max-width:1185px) {
+    .left {
+        padding-left: 0.9rem;
+        line-height: 7rem;
+    }
+
+    .left h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .left h3 {
+        line-height: 3rem;
+        word-spacing: 5px;
+        font-size: 1rem;
+    }
+
+    .left h5 {
+        font-size: 1rem;
+    }
+
+    .img {
+        line-height: 5rem;
+    }
+
+    .img img {
+        width: 30%;
+    }
+
+    .forbes {
+        padding-left: 2rem;
+    }
+
+
+    /* section-disc */
+
+    .left-one {
+        padding-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .left-two {
+        padding-left: 2rem;
+        font-size: 1.4rem;
+    }
+
+    /* forth-section */
+
+    .head-one {
+        font-size: 2.8rem;
+    }
+
+    .column p {
+        padding-left: 7rem;
+        font-size: 1.7rem;
+    }
+
+/* seven-section */
+.frame-one{
+    padding-right: 05px;
+    width: auto;
+    height: 460px;
+}
+.frame-two{
+ width: auto;
+    padding-left: 05px;
+    height: 460px;
+}
+
+}
+
+@media screen and (max-width:800px) {
+    .fa i {
+        display: block;
+    }
+
+    .menu ul a {
+        display: none;
+    }
+
+    .left {
+        line-height: 3rem;
+        padding-top: 2rem;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .left h3 {
+        line-height: 3rem;
+        word-spacing: 4px;
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .img img {
+        width: 40%;
+    }
+
+    /* section-disc */
+    .disc {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-one {
+        line-height: 2rem;
+    }
+
+    .left-two {
+        line-height: 2rem;
+        margin-top: 10px;
+    }
+
+    /* forth-section */
+
+    .head-one {
+        font-size: 2rem;
+    }
+
+    .column p {
+        padding-left: 5rem;
+        font-size: 1.3rem;
+    }
+
+/* gallery-section */
+
+.gallery img{
+    height: 150px;
+} 
+.one{
+    font-size: 0.5rem;
+    word-spacing:20px;
+}
+.two{
+    font-size: 0.5rem;
+    word-spacing: 20px;
+}
+.three{
+    font-size: 0.5rem;
+    word-spacing: 20px;
+}
+.four{
+    font-size: 0.5rem;
+    word-spacing: 20px;
+}  
+/* seven-section */
+.frame-one{
+    padding-right: 05px;
+    width: auto;
+    height: 360px;
+}
+.frame-two{
+ width: auto;
+    padding-left: 05px;
+    height: 360px;
+}
+
+/* row-section */
+.heading-four{
+    font-size: 1.2rem;
+}
+
+.ten img{
+    width: 14rem;
+    margin-top: 3px;
+  }
+
+/* Footer */
+
+.footer p{
+    font-size: 0.8rem;
+}
+.icons-ten{
+    font-size: 0.7rem;
+}
+}
+
+
+@media screen and (max-width:1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .humburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .humburger .line {
+        width: 30px;
+        height: 3px;
+        background: rgb(0, 0, 0);
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgb(255, 255, 255);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active {
+        height: 400px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:570px) {
+    .left h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .left h3 {
+        line-height: 2rem;
+        word-spacing: 4px;
+        font-size: 0.8rem;
+    }
+
+    .left h5 {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    /* disc-section */
+
+    .left-one {
+        font-size: 1rem;
+    }
+
+    .left-two {
+        font-size: 1.2rem;
+    }
+
+    .left-two h3 {
+        font-size: 1rem;
+    }
+
+    /* third-section */
+
+    .icons-one h2 {
+        font-size: 1rem;
+    }
+
+    .icons-one h3 {
+        font-size: 0.8rem;
+    }
+
+    /* forth-section */
+
+    .head-one {
+        font-size: 1.6rem;
+    }
+
+    .column p {
+        padding-left: 3rem;
+        font-size: 1rem;
+    }
+    /* seven-section */
+.frame-one{
+    padding-right: 05px;
+    width: auto;
+    height: 250px;
+}
+.frame-two{
+ width: auto;
+    padding-left: 05px;
+    height: 250px;
+}
+
+/* row-section */
+.heading-four{
+    font-size: 0.8rem;
+}
+
+.ten img{
+    width: 10rem;
+    margin-top: 3px;
+  }
+
+
+}
+
+@media screen and (max-width:490px) {
+    .left {
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
+
+    .left h1 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+    }
+
+    .left h3 {
+        line-height: 1rem;
+        word-spacing: 1px;
+        font-size: 0.6rem;
+    }
+
+    .left h5 {
+        font-size: 0.4rem;
+        font-weight: 100;
+        line-height: 1rem;
+    }
+
+    .img {
+        line-height: 5rem;
+    }
+
+    .img .forbes {
+        width: 50%;
+    }
+
+    /* disc-section */
+
+    .left-one {
+        font-size: 0.8rem;
+    }
+
+    .left-two {
+        font-size: 1rem;
+    }
+
+    .left-two h3 {
+        font-size: 0.8rem;
+    }
+
+    /* third-section */
+
+    .icons-one {
+        padding-left: 50px;
+    }
+
+    .icons-one h2 {
+        font-size: 0.5rem;
+        padding-right: 40px;
+    }
+
+    .icons-one h3 {
+        font-size: 0.3rem;
+    }
+
+    /*forth-section  */
+
+    .column {
+        line-height: 30px;
+    }
+
+    .head-one {
+        font-size: 1rem;
+    }
+
+    .column p {
+        padding-left: 3rem;
+        font-size: 0.8rem;
+    }
+
+/* gallery-section */
+
+.gallery img{
+    height: 100px;
+}   
+.one{
+    font-size: 0.4rem;
+    word-spacing: 10px;
+}
+.two{
+    font-size: 0.4rem;
+    word-spacing: 10px;
+}
+.three{
+    font-size: 0.4rem;
+    word-spacing: 10px;
+}
+.four{
+    font-size: 0.4rem;
+    word-spacing: 10px;
+}
+    /* seven-section */
+    .frame-one{
+        padding-right: 5px;
+        width: auto;
+        height: 150px;
+    }
+    .frame-two{
+     width: auto;
+        padding-left: 5px;
+        height: 150px;
+    }
+
+    /* Footer */
+.logo-one img{
+    width: 80px;
+    padding-top: 10px;
+}
+.footer p{
+    font-size: 0.5rem;
+}
+.icons-ten{
+    font-size: 0.5rem;
+}
+
+}
+
+
+@media screen and (max-width:360px) {
+    .gallery img{
+        height: 80px;
+    }   
+    .one{
+        font-size: 0.2rem;
+        word-spacing: 5px;
+    }
+    .two{
+        font-size: 0.2rem;
+        word-spacing: 5px;
+    }
+    .three{
+        font-size: 0.2rem;
+        word-spacing: 5px;
+    }
+    .four{
+        font-size: 0.2rem;
+        word-spacing: 5px;
+    }
+
+    /* row-section */
+.heading-four{
+    font-size: 0.5rem;
+}
+
+.ten img{
+    width: 8rem;
+    margin-top: 3px;
+  }
+}
